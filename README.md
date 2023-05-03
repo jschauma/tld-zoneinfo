@@ -168,7 +168,7 @@ curl -s -H 'Accept: application/json' \
 
 The entire list of registered domains can be fetched
 via a simple loop.  See [this
-script](./blob/main/tools/fetch-fi.sh) for an example.
+script](https://github.com/jschauma/tld-zoneinfo/blob/main/tools/fetch-fi.sh) for an example.
 
 France (fr.)
 ------------
