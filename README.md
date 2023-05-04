@@ -114,7 +114,7 @@ The zone for `cv.` appears to be available via `AXFR`
 from some of the `NS` records listed in the root zone:
 
 ```
-dig +noall +answer +noidnout +onesoa @cv01.dns.pt. cv. AXFR | more
+dig +noall +answer +noidnout +onesoa @cv01.dns.pt. cv. AXFR
 ```
 
 Czech Republic (cz.)
