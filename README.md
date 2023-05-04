@@ -74,7 +74,19 @@ ccTLDs are not covered by the ICANN requirement to
 make zone data available to the public.  When
 contacted, most ccTLD operators deny the request.
 
-The following are exceptions:
+The following are exceptions / additional notes:
+
+Bouvet Island (bv.)
+-------------------
+
+The `bv.` ccTLD has never been open for registrations.
+Per feedback from `norid.no`, the zone file
+is empty, except for the required apex resource
+records.
+
+See also:
+https://www.norid.no/en/omnorid/toppdomenet-bv/
+
 
 Democratic Republic of the Congo (cd.)
 --------------------------------------
@@ -111,7 +123,7 @@ Czech Republic (cz.)
 CZ.nic does not make the `cz.` zone available to the
 public, but some statistics are published here:
 
-https://stats.nic.cz/dashboard/en/Summary.html                                          
+https://stats.nic.cz/dashboard/en/Summary.html
 
 
 Eritrea (er.)
@@ -282,6 +294,19 @@ dig +noall +answer +noidnout +onesoa @ns2.neoip.com sl. AXFR
 Note: this domain offers registration under several
 second-level names (e.g., `com.sl.`, `edu.sl.`, ...);
 some of these domains are also available via `AXFR`.
+
+
+Svalbard and Jan Mayen (sj.)
+----------------------------
+
+The `sj.` ccTLD for Svalbard/Spitsbergen and Jan Mayen
+has never been open for registrations.  Per feedback
+from `norid.no`, the zone file is empty, except for
+the required apex resource records.
+
+See also:
+https://www.norid.no/en/omnorid/toppdomenet-sj/
+
 
 United States (us.)
 -------------------
