@@ -76,6 +76,20 @@ contacted, most ccTLD operators deny the request.
 
 The following are exceptions / additional notes:
 
+Brazil (br.)
+------------
+
+Registro.br does not make the zone file or data
+available to the public, but provides some statistics
+here:
+
+https://registro.br/dominio/estatisticas/
+
+@MatheusAvellar has compiled an incomplete and
+unofficial list of `br.` domains at
+https://lab.avl.la/.br/.
+
+
 Bouvet Island (bv.)
 -------------------
 
