@@ -249,6 +249,17 @@ second-level names (e.g., `com.ni.`, `net.ni.`,
 ...); some of these domains are also available via
 `AXFR`.
 
+
+Norway (no.)
+------------
+
+norid.no does not make zone data for the `no.` ccTLD
+available to the public, but provides some statistics
+here:
+
+https://www.norid.no/en/om-domenenavn/nokkeltall/
+
+
 Niue (nu.)
 ----------
 
