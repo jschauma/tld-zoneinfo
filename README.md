@@ -288,6 +288,12 @@ here:
 
 https://www.pt.pt/en/data-protection/zone-file-access-policy/
 
+The request will ask for the purpose, required access,
+associated organizations, and ultimately request a
+government ID to be submitted together with the zone
+file sharing agreement.
+
+
 Slovakia (sk.)
 --------------
 
