@@ -76,6 +76,32 @@ contacted, most ccTLD operators deny the request.
 
 The following are exceptions / additional notes:
 
+Argentina (ar.)
+---------------
+
+`nic.ar` does not make the zone file or data available
+to the public, but provides some statistics here:
+
+https://nic.ar/es/dominios/estadisticas
+
+Bosnia and Herzegovina (ba.)
+----------------------------
+
+`nic.ba` does not make the zone file or data available
+to the public, but provides some statistics here:
+
+https://nic.ba/Statistics/Statistics
+
+Belgium (be.)
+-------------
+
+`dnsbelgium.be` does not make the zone file or data
+available to the public, but provides some statistics
+here:
+
+https://www.dnsbelgium.be/en/statistics
+
+
 Brazil (br.)
 ------------
 
