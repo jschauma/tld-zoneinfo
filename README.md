@@ -157,6 +157,15 @@ from some of the `NS` records listed in the root zone:
 dig +noall +answer +noidnout +onesoa @cv01.dns.pt. cv. AXFR
 ```
 
+Curaçao (cw.)
+-------------
+
+An old listing of registered domains dated 2021-11-12
+can be found at:
+
+https://www.uoc.cw/domain-registration/cw-registered-domains
+
+
 Czech Republic (cz.)
 --------------------
 
@@ -165,6 +174,12 @@ public, but some statistics are published here:
 
 https://stats.nic.cz/dashboard/en/Summary.html
 
+Denmark (dk.)
+-------------
+
+`punktum.dk` makes available some statistics here:
+
+https://stats.punktum.dk/da/domains/total_domains
 
 Eritrea (er.)
 -------------
@@ -191,6 +206,13 @@ Per https://www.internet.ee/domains/ee-zone-file, the
 ```
 dig +noall +answer +noidnout +onesoa @zone.internet.ee ee. AXFR
 ```
+
+European Union (eu.)
+--------------------
+
+`eurid.eu` makes some statistics available here:
+
+https://eurid.eu/en/welcome-to-eurid/statistics/
 
 Fiji (fj.)
 ----------
@@ -231,6 +253,14 @@ registered domains at:
 
 https://www.afnic.fr/produits-services/services-associes/donnees-partagees/
 
+Georgia (ge.)
+-------------
+
+`nic.ge` provides some statistics here:
+
+https://nic.ge/en/administrator/statistics
+
+
 Guadeloupe (gp.)
 ----------------
 
@@ -242,6 +272,101 @@ dig +noall +answer +noidnout +onesoa @ns2.nic.gp gp. AXFR
 ```
 
 
+Guatemala (gt.)
+---------------
+
+`www.gt` provides some statistics here:
+
+https://www.gt/estadisticas/
+
+
+Hong Kong (hk.)
+---------------
+
+`hkirc.hk` provides some statistics here:
+
+https://www.hkirc.hk/zh-hant/news/statistics/
+
+
+Hungary (hu.)
+-------------
+
+`domain.hu` provides some statistics here:
+
+https://info.domain.hu/stats/hu
+
+
+Indonesia (id.)
+---------------
+
+The website for `pandi.id` pulls some stats from this
+URL:
+
+https://pandi.id/api/v1/domain-statistics/legacy/stats
+
+
+Ireland (ie.)
+-------------
+
+`weare.ie` provides some statistics here:
+
+https://www.weare.ie/ie-domain-profile-report/
+
+
+Israel (il. and xn--4dbrk0ce.)
+------------------------------
+
+`isoc.org.il` provides some statistics here:
+
+https://en.isoc.org.il/il-cctld/number-of-registered-domain-names-2023
+
+
+Iran (ir.)
+----------
+
+`nic.ir` provides some statistics here:
+
+https://www.nic.ir/Statistics
+
+
+Iceland (is.)
+-------------
+
+`isnic.is` provides some statistics here:
+
+https://www.isnic.is/en/tolur
+
+
+Italy (it.)
+-----------
+
+`nic.it` provides some statistics here:
+
+https://stats.nic.it/domain/growth
+
+
+Jordan (jo. and xn--mgbayh7gpa.)
+--------------------------------
+
+`dns.jo` provides some statistics here:
+
+https://www.dns.jo/stat.aspx
+
+Japan (jp.)
+-----------
+
+JPRS provides some statistics here:
+
+https://jprs.co.jp/en/stat/
+
+
+South Koreak (kr. and xn--3e0b707e.)
+------------------------------------
+
+KRNIC provides some statistics here:
+
+https://krnic.or.kr/jsp/statboard/domain/reg/currentNation.jsp
+
 Liechtenstein (li.)
 -------------------
 
@@ -249,6 +374,21 @@ Switch.ch provides open data access to the `li.` zone
 via TSIG authenticated `AXFR`:
 
 https://www.switch.ch/open-data/#tab-c5442a19-67cf-11e8-9cf6-5254009dc73c-3
+
+Lithuania (lt.)
+---------------
+
+`domreg.lt` makes some statistics available here:
+
+https://www.domreg.lt/en/information/lt-domain-statistics/
+
+Latvia (lv.)
+------------
+
+`nic.lv` makes some statistics available here:
+
+https://www.nic.lv/lv/statistika and
+https://www.nic.lv/lv/latviskie-domena-vardi
 
 Malawi (mw.)
 ------------
@@ -259,6 +399,21 @@ from some of its `NS` records:
 ```
 dig +noall +answer +noidnout +onesoa @domwe.sdn.mw. mw. AXFR
 ```
+
+Mexico (mx.)
+------------
+
+NIC Mexico makes some statistics available here:
+
+https://www.nicmexico.mx/estadisticas/
+
+Netherlands (nl.)
+-----------------
+
+SIDN Labs makes some statistiks available here:
+
+https://stats.sidnlabs.nl/nl/
+
 
 Nicaragua (ni.)
 ---------------
@@ -305,6 +460,21 @@ here:
 
 https://dnc.org.nz/tools-and-services/how-do-i-2/request-the-zone-data-file/
 
+Poland (pl.)
+------------
+
+`dns.pl` makes some statistics available here:
+
+https://www.dns.pl/en/statistics/number_of_active_names_in_DNS_zone
+
+Palestine (ps.)
+---------------
+
+`nic.ps` makes some statistics available here:
+
+https://www.nic.ps/statistics/
+
+
 Portugal (pt.)
 --------------
 
@@ -318,6 +488,11 @@ The request will ask for the purpose, required access,
 associated organizations, and ultimately request a
 government ID to be submitted together with the zone
 file sharing agreement.
+
+In addition, `pt.pt` makes sme statistics available
+here:
+
+https://www.pt.pt/pt/estatisticas/
 
 
 Slovakia (sk.)
@@ -363,6 +538,36 @@ the required apex resource records.
 
 See also:
 https://www.norid.no/en/omnorid/toppdomenet-sj/
+
+
+Turkey (tr.)
+------------
+
+TRABIS provides some statistics here:
+
+https://www.trabis.gov.tr/ozet
+
+
+Taiwan (tw.)
+------------
+
+`twnic.tw` provides some statistics here:
+
+https://www.twnic.tw/item02.php
+
+Ukraine (ua.)
+-------------
+
+`hostmaster.ua` makes some statistics available here:
+
+https://www.hostmaster.ua/UAstat/
+
+United Kingdom (uk.)
+--------------------
+
+Nominet makes some statistics available here:
+
+https://www.nominet.uk/news/reports-statistics/
 
 
 United States (us.)
