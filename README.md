@@ -451,6 +451,10 @@ The Swedish Internet Foundation provides access to the
 dig +noall +answer +noidnout +onesoa @zonedata.iis.se nu. AXFR
 ```
 
+They also make available some statistics here:
+
+https://internetstiftelsen.se/en/domains/domain-statistics/growth-nu/
+
 New Zealand (nz.)
 -----------------
 
@@ -512,6 +516,10 @@ The Swedish Internet Foundation provides access to the
 ```
 dig +noall +answer +noidnout +onesoa @zonedata.iis.se se. AXFR
 ```
+
+They also make available some statistics here:
+
+https://internetstiftelsen.se/en/domains/domain-statistics/growth-se/
 
 Sierra Leone (sl.)
 ------------------
