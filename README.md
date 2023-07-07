@@ -425,6 +425,13 @@ Latvia (lv.)
 https://www.nic.lv/lv/statistika and
 https://www.nic.lv/lv/latviskie-domena-vardi
 
+Morocco (ma.)
+-------------
+
+`registre.ma` makes some statistics available here:
+
+https://www.registre.ma/language/en/resources/e-statistiques
+
 Malawi (mw.)
 ------------
 
@@ -499,6 +506,10 @@ here:
 
 https://dnc.org.nz/tools-and-services/how-do-i-2/request-the-zone-data-file/
 
+They also make available some statistics here:
+
+https://docs.internetnz.nz/legacy/reports/
+
 Poland (pl.)
 ------------
 
@@ -532,6 +543,40 @@ In addition, `pt.pt` makes sme statistics available
 here:
 
 https://www.pt.pt/pt/estatisticas/
+
+Russia (ru.)
+------------
+
+`statdom.ru` makes available some statistics here:
+
+https://statdom.ru/tld/ru/report/summary/
+
+
+Saudi Arabia (sa.)
+------------------
+
+`nic.sa` makes available some statistics at
+
+https://nic.sa/en/
+
+Singapore (sg.)
+---------------
+
+`sgnic.sg` makes available some statistics at
+
+https://www.sgnic.sg/about-us/registration-statistics
+
+
+Svalbard and Jan Mayen (sj.)
+----------------------------
+
+The `sj.` ccTLD for Svalbard/Spitsbergen and Jan Mayen
+has never been open for registrations.  Per feedback
+from `norid.no`, the zone file is empty, except for
+the required apex resource records.
+
+See also:
+https://www.norid.no/en/omnorid/toppdomenet-sj/
 
 
 Slovakia (sk.)
@@ -570,18 +615,28 @@ Note: this domain offers registration under several
 second-level names (e.g., `com.sl.`, `edu.sl.`, ...);
 some of these domains are also available via `AXFR`.
 
+Soviet Union (su.)
+------------------
 
-Svalbard and Jan Mayen (sj.)
-----------------------------
+(TLD still in use.)
 
-The `sj.` ccTLD for Svalbard/Spitsbergen and Jan Mayen
-has never been open for registrations.  Per feedback
-from `norid.no`, the zone file is empty, except for
-the required apex resource records.
+`statdom.ru` makes available some statistics here:
 
-See also:
-https://www.norid.no/en/omnorid/toppdomenet-sj/
+https://statdom.ru/tld/su/report/summary/
 
+Thailand (th.)
+--------------
+
+`thnic.co.th` makes available some statistics here:
+
+https://www.thnic.co.th/stats
+
+Tunisia (tn.)
+-------------
+
+`registre.tn` makes some statistics available here:
+
+https://www.registre.tn/fr/index.php?rub=262&srub=329
 
 Turkey (tr.)
 ------------
@@ -589,7 +644,6 @@ Turkey (tr.)
 TRABIS provides some statistics here:
 
 https://www.trabis.gov.tr/ozet
-
 
 Taiwan (tw.)
 ------------
@@ -621,6 +675,27 @@ zone available to the public, but a request for access
 for research purposes can be made via email to
 iana@about.us.
 
+Uruguay (uy.)
+-------------
+
+`nic.uy` makes some statistics available here:
+
+https://www.nic.uy/Registrar/estadist/index.htm
+
+Uzbekistan (uz.)
+----------------
+
+`cctld.uz` makes some statistics available here:
+
+https://www.cctld.uz/stat/
+
+South Africa (za.)
+------------------
+
+`registry.net.za` makes some statistics available here:
+
+https://registry.net.za/domain_stats.php
+
 
 Internationalized country code top-level domains (IDN ccTLDs)
 =============================================================
@@ -644,6 +719,30 @@ from some of its `NS` records:
 ```
 dig +noall +answer +noidnout +onesoa @ns1.gov.ps xn--ygbi2ammx. AXFR
 ```
+
+Russia (xn--p1ai.)
+------------------
+
+`statdom.ru` makes available some statistics here:
+
+https://statdom.ru/tld/рф/report/summary/
+
+
+Thailand (xn--o3cw4h.)
+----------------------
+
+`thnic.co.th` makes available some statistics here:
+
+https://www.thnic.co.th/stats
+
+
+Tunisia (xn--pgbs0dh.)
+----------------------
+
+`registre.tn` makes some statistics available here:
+
+https://www.registre.tn/fr/index.php?rub=262&srub=329
+
 
 
 See also
