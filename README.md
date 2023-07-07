@@ -76,6 +76,13 @@ contacted, most ccTLD operators deny the request.
 
 The following are exceptions / additional notes:
 
+Armenia (am.)
+-------------
+
+AMNIC makes some statistics available here:
+
+https://amnic.net/statistics/
+
 Argentina (ar.)
 ---------------
 
@@ -83,6 +90,20 @@ Argentina (ar.)
 to the public, but provides some statistics here:
 
 https://nic.ar/es/dominios/estadisticas
+
+Austria (at.)
+-------------
+
+`nic.at` makes some statistics available here:
+
+https://www.nic.at/en/good_to_know/statistics-and-studies/statistics
+
+Azerbaijan (az.)
+----------------
+
+`whois.az` makes some statistics available here:
+
+https://whois.az/?page_id=783
 
 Bosnia and Herzegovina (ba.)
 ----------------------------
@@ -180,6 +201,20 @@ Denmark (dk.)
 `punktum.dk` makes available some statistics here:
 
 https://stats.punktum.dk/da/domains/total_domains
+
+Dominican Republic (do.)
+------------------------
+
+`nic.do` makes available some statistics here:
+
+https://www.nic.do/en/about-nic-do/statistics/
+
+Algeria (dz.)
+-------------
+
+`nic.dz` makes available some statistics here:
+
+http://www.nic.dz/en/
 
 Eritrea (er.)
 -------------
