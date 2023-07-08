@@ -20,6 +20,8 @@ Available via AXFR:
 dig +noall +answer +noidnout +onesoa @$(dig +short ns arpa. | head -1) arpa AXFR
 ```
 
+This zone can also be walked using NSEC discovery.
+
 Original Top-Level Domains (TLDs)
 =================================
 
@@ -136,6 +138,8 @@ https://registro.br/dominio/estatisticas/
 unofficial list of `br.` domains at
 https://lab.avl.la/.br/.
 
+This zone can also be walked using NSEC discovery.
+
 
 Bouvet Island (`bv.`)
 -------------------
@@ -216,6 +220,8 @@ Algeria (`dz.`)
 
 http://www.nic.dz/en/
 
+This zone can also be walked using NSEC discovery.
+
 Eritrea (`er.`)
 -------------
 
@@ -241,6 +247,8 @@ Per https://www.internet.ee/domains/ee-zone-file, the
 ```
 dig +noall +answer +noidnout +onesoa @zone.internet.ee ee. AXFR
 ```
+
+This zone can also be walked using NSEC discovery.
 
 European Union (`eu.`, `xn--qxa6a` / `.ευ`, and `xn--e1a4c` / `.ею`)
 ----------------------------------------------------------
@@ -615,6 +623,8 @@ Note: this domain offers registration under several
 second-level names (e.g., `com.sl.`, `edu.sl.`, ...);
 some of these domains are also available via `AXFR`.
 
+This zone can also be walked using NSEC discovery.
+
 Soviet Union (`su.`)
 ------------------
 
@@ -710,6 +720,8 @@ from some of its `NS` records:
 dig +noall +answer +noidnout +onesoa @bayanno.btcl.net.bd. xn--54b7fta0cc. AXFR
 ```
 
+This zone can also be walked using NSEC discovery.
+
 Palestine (`xn--ygbi2ammx.` / `.فلسطين`)
 ------------------------------------
 
@@ -747,25 +759,40 @@ https://www.registre.tn/fr/index.php?rub=262&srub=329
 NSEC Discovery
 ==============
 
-The following TLDs use
+As of 2023-7-08, The following TLDs use
 [NSEC](https://www.netmeister.org/blog/dns-rrs.html#nsec)
 records and thus can be discovered by walking the zone
 using e.g.,
 [ldns-walk](https://github.com/NLnetLabs/ldns):
 
+* `audio.`
+* `auto.`
 * Åland (`ax.`)
 * Bangladesh (`bd.`)
 * Bhutan (`bt.`)
+* `car.`
+* `cars.`
+* `christmas.`
+* Ivory Coast (`ci.`)
 * Cyprus (`cy.`)
+* `diet.`
+* Algeria (`dz.`)
+* Estonia (`ee.`)
+* `flowers.`
+* `game.`
 * Global Domain Name (`gdn.`)
 * Guinea (`gn.`)
+* `guitars.`
+* `hosting.`
+* Kazakhstan (`kz.`)
 * Lebanon (`lb.`)
 * Sri Lanka (`lk.`)
 * Liberia (`lr.`)
 * Monaco (`mc.`)
 * Puerto Rico (`pr.`)
+* `ruhr.`
 * Venezuela (`ve.`)
-* Kazhakstan (`xn--80ao21a.` / `.қаз`)
+* Kazakhstan (`xn--80ao21a.` / `.қаз`)
 * Sri Lanka (`xn--fzc2c9e2c.` / `.ලංකා`)
 * Mongolia (`xn--l1acc.` / `.мон`)
 * Sri Lanka (`xn--xkc2al3hye2a.` / `.இலங்கை`)
