@@ -2,7 +2,7 @@ This directory contains information about how to
 access DNS zone data for the different top-level
 domains (TLDs).
 
-The Root Zone (.)
+The Root Zone (`.`)
 =================
 
 https://www.iana.org/domains/root/files
@@ -11,7 +11,7 @@ https://www.iana.org/domains/root/files
 dig +noall +answer +noidnout +onesoa @f.root-servers.net . AXFR
 ```
 
-Infrastructure domain (arpa.)
+Infrastructure domain (`arpa.`)
 =============================
 
 Available via AXFR:
@@ -23,7 +23,7 @@ dig +noall +answer +noidnout +onesoa @$(dig +short ns arpa. | head -1) arpa AXFR
 Original Top-Level Domains (TLDs)
 =================================
 
-edu.
+`edu.`
 ----
 
 Per inquiry to https://www.educause.edu/, the zone is
@@ -33,7 +33,7 @@ domain_."
 
 Inquiries should be sent to edu@educause.edu.
 
-mil.
+`mil.`
 ----
 
 Per inquiry to the technical contact listed in WHOIS,
@@ -59,7 +59,7 @@ ask to see your ID.
 Sponsored Top-Level Domains (sTLDs)
 ===================================
 
-International (int.)
+International (`int.`)
 --------------------
 
 Per inquiry to tld-contact@iana.org, the zone for
@@ -76,14 +76,14 @@ contacted, most ccTLD operators deny the request.
 
 The following are exceptions / additional notes:
 
-Armenia (am.)
+Armenia (`am.`)
 -------------
 
 AMNIC makes some statistics available here:
 
 https://amnic.net/statistics/
 
-Argentina (ar.)
+Argentina (`ar.`)
 ---------------
 
 `nic.ar` does not make the zone file or data available
@@ -91,21 +91,21 @@ to the public, but provides some statistics here:
 
 https://nic.ar/es/dominios/estadisticas
 
-Austria (at.)
+Austria (`at.`)
 -------------
 
 `nic.at` makes some statistics available here:
 
 https://www.nic.at/en/good_to_know/statistics-and-studies/statistics
 
-Azerbaijan (az.)
+Azerbaijan (`az.`)
 ----------------
 
 `whois.az` makes some statistics available here:
 
 https://whois.az/?page_id=783
 
-Bosnia and Herzegovina (ba.)
+Bosnia and Herzegovina (`ba.`)
 ----------------------------
 
 `nic.ba` does not make the zone file or data available
@@ -113,7 +113,7 @@ to the public, but provides some statistics here:
 
 https://nic.ba/Statistics/Statistics
 
-Belgium (be.)
+Belgium (`be.`)
 -------------
 
 `dnsbelgium.be` does not make the zone file or data
@@ -123,7 +123,7 @@ here:
 https://www.dnsbelgium.be/en/statistics
 
 
-Brazil (br.)
+Brazil (`br.`)
 ------------
 
 Registro.br does not make the zone file or data
@@ -137,7 +137,7 @@ unofficial list of `br.` domains at
 https://lab.avl.la/.br/.
 
 
-Bouvet Island (bv.)
+Bouvet Island (`bv.`)
 -------------------
 
 The `bv.` ccTLD has never been open for registrations.
@@ -149,7 +149,7 @@ See also:
 https://www.norid.no/en/omnorid/toppdomenet-bv/
 
 
-Democratic Republic of the Congo (cd.)
+Democratic Republic of the Congo (`cd.`)
 --------------------------------------
 
 The zone for `cd.` appears to be available via `AXFR`
@@ -160,7 +160,7 @@ dig +noall +answer +noidnout +onesoa @ns-root-22.scpt-network.net. cd. AXFR
 ```
 
 
-Switzerland (ch.)
+Switzerland (`ch.`)
 -----------------
 
 Switch.ch provides open data access to the `ch.` zone
@@ -168,7 +168,7 @@ via TSIG authenticated `AXFR`:
 
 https://www.switch.ch/open-data/#tab-c5442a19-67cf-11e8-9cf6-5254009dc73c-3
 
-Cape Verde (cv.)
+Cape Verde (`cv.`)
 ----------------
 
 The zone for `cv.` appears to be available via `AXFR`
@@ -178,7 +178,7 @@ from some of the `NS` records listed in the root zone:
 dig +noall +answer +noidnout +onesoa @cv01.dns.pt. cv. AXFR
 ```
 
-Curaçao (cw.)
+Curaçao (`cw.`)
 -------------
 
 An old listing of registered domains dated 2021-11-12
@@ -187,7 +187,7 @@ can be found at:
 https://www.uoc.cw/domain-registration/cw-registered-domains
 
 
-Czech Republic (cz.)
+Czech Republic (`cz.`)
 --------------------
 
 CZ.nic does not make the `cz.` zone available to the
@@ -195,28 +195,28 @@ public, but some statistics are published here:
 
 https://stats.nic.cz/dashboard/en/Summary.html
 
-Denmark (dk.)
+Denmark (`dk.`)
 -------------
 
 `punktum.dk` makes available some statistics here:
 
 https://stats.punktum.dk/da/domains/total_domains
 
-Dominican Republic (do.)
+Dominican Republic (`do.`)
 ------------------------
 
 `nic.do` makes available some statistics here:
 
 https://www.nic.do/en/about-nic-do/statistics/
 
-Algeria (dz.)
+Algeria (`dz.`)
 -------------
 
 `nic.dz` makes available some statistics here:
 
 http://www.nic.dz/en/
 
-Eritrea (er.)
+Eritrea (`er.`)
 -------------
 
 The zone for `er.` appears to be available via `AXFR`
@@ -232,7 +232,7 @@ second-level names (e.g., `com.er.`, `edu.er.`,
 `AXFR`.
 
 
-Estonia (ee.)
+Estonia (`ee.`)
 -------------
 
 Per https://www.internet.ee/domains/ee-zone-file, the
@@ -242,14 +242,14 @@ Per https://www.internet.ee/domains/ee-zone-file, the
 dig +noall +answer +noidnout +onesoa @zone.internet.ee ee. AXFR
 ```
 
-European Union (eu.)
---------------------
+European Union (`eu.`, `xn--qxa6a` / `.ευ`, and `xn--e1a4c` / `.ею`)
+----------------------------------------------------------
 
 `eurid.eu` makes some statistics available here:
 
 https://eurid.eu/en/welcome-to-eurid/statistics/
 
-Fiji (fj.)
+Fiji (`fj.`)
 ----------
 
 The zone for `fj.` appears to be available via `AXFR`
@@ -260,7 +260,7 @@ dig +noall +answer +noidnout +onesoa @ns1.fj fj. AXFR
 
 ```
 
-Finland (fi.)
+Finland (`fi.`)
 -------------
 
 The Finnish Communications Regulatory Authority does
@@ -279,7 +279,7 @@ The entire list of registered domains can be fetched
 via a simple loop.  See [this
 script](https://github.com/jschauma/tld-zoneinfo/blob/main/tools/fetch-fi.sh) for an example.
 
-France (fr.)
+France (`fr.`)
 ------------
 
 AFNIC does not provide access to the zone file, but
@@ -288,7 +288,7 @@ registered domains at:
 
 https://www.afnic.fr/produits-services/services-associes/donnees-partagees/
 
-Georgia (ge.)
+Georgia (`ge.`)
 -------------
 
 `nic.ge` provides some statistics here:
@@ -296,7 +296,7 @@ Georgia (ge.)
 https://nic.ge/en/administrator/statistics
 
 
-Guadeloupe (gp.)
+Guadeloupe (`gp.`)
 ----------------
 
 The zone for `gq.` appears to be available via `AXFR`
@@ -307,7 +307,7 @@ dig +noall +answer +noidnout +onesoa @ns2.nic.gp gp. AXFR
 ```
 
 
-Guatemala (gt.)
+Guatemala (`gt.`)
 ---------------
 
 `www.gt` provides some statistics here:
@@ -315,7 +315,7 @@ Guatemala (gt.)
 https://www.gt/estadisticas/
 
 
-Hong Kong (hk.)
+Hong Kong (`hk.`)
 ---------------
 
 `hkirc.hk` provides some statistics here:
@@ -323,7 +323,7 @@ Hong Kong (hk.)
 https://www.hkirc.hk/zh-hant/news/statistics/
 
 
-Hungary (hu.)
+Hungary (`hu.`)
 -------------
 
 `domain.hu` provides some statistics here:
@@ -331,7 +331,7 @@ Hungary (hu.)
 https://info.domain.hu/stats/hu
 
 
-Indonesia (id.)
+Indonesia (`id.`)
 ---------------
 
 The website for `pandi.id` pulls some stats from this
@@ -340,7 +340,7 @@ URL:
 https://pandi.id/api/v1/domain-statistics/legacy/stats
 
 
-Ireland (ie.)
+Ireland (`ie.`)
 -------------
 
 `weare.ie` provides some statistics here:
@@ -348,15 +348,15 @@ Ireland (ie.)
 https://www.weare.ie/ie-domain-profile-report/
 
 
-Israel (il. and xn--4dbrk0ce.)
-------------------------------
+Israel (`il`. and `xn--4dbrk0ce.` / `.ישראל`)
+---------------------------------------
 
 `isoc.org.il` provides some statistics here:
 
 https://en.isoc.org.il/il-cctld/number-of-registered-domain-names-2023
 
 
-Iran (ir.)
+Iran (`ir.`)
 ----------
 
 `nic.ir` provides some statistics here:
@@ -364,7 +364,7 @@ Iran (ir.)
 https://www.nic.ir/Statistics
 
 
-Iceland (is.)
+Iceland (`is.`)
 -------------
 
 `isnic.is` provides some statistics here:
@@ -372,7 +372,7 @@ Iceland (is.)
 https://www.isnic.is/en/tolur
 
 
-Italy (it.)
+Italy (`it.`)
 -----------
 
 `nic.it` provides some statistics here:
@@ -380,14 +380,14 @@ Italy (it.)
 https://stats.nic.it/domain/growth
 
 
-Jordan (jo. and xn--mgbayh7gpa.)
---------------------------------
+Jordan (`jo`. and `xn--mgbayh7gpa.` / `.الاردن`)
+-----------------------------------------
 
 `dns.jo` provides some statistics here:
 
 https://www.dns.jo/stat.aspx
 
-Japan (jp.)
+Japan (`jp.`)
 -----------
 
 JPRS provides some statistics here:
@@ -395,14 +395,14 @@ JPRS provides some statistics here:
 https://jprs.co.jp/en/stat/
 
 
-South Koreak (kr. and xn--3e0b707e.)
-------------------------------------
+South Korea (`kr`. and `xn--3e0b707e.` / `.한국`)
+-------------------------------------------
 
 KRNIC provides some statistics here:
 
 https://krnic.or.kr/jsp/statboard/domain/reg/currentNation.jsp
 
-Liechtenstein (li.)
+Liechtenstein (`li.`)
 -------------------
 
 Switch.ch provides open data access to the `li.` zone
@@ -410,14 +410,14 @@ via TSIG authenticated `AXFR`:
 
 https://www.switch.ch/open-data/#tab-c5442a19-67cf-11e8-9cf6-5254009dc73c-3
 
-Lithuania (lt.)
+Lithuania (`lt.`)
 ---------------
 
 `domreg.lt` makes some statistics available here:
 
 https://www.domreg.lt/en/information/lt-domain-statistics/
 
-Latvia (lv.)
+Latvia (`lv.`)
 ------------
 
 `nic.lv` makes some statistics available here:
@@ -425,14 +425,14 @@ Latvia (lv.)
 https://www.nic.lv/lv/statistika and
 https://www.nic.lv/lv/latviskie-domena-vardi
 
-Morocco (ma.)
+Morocco (`ma.`)
 -------------
 
 `registre.ma` makes some statistics available here:
 
 https://www.registre.ma/language/en/resources/e-statistiques
 
-Malawi (mw.)
+Malawi (`mw.`)
 ------------
 
 The zone for `mw.` appears to be available via `AXFR`
@@ -442,14 +442,14 @@ from some of its `NS` records:
 dig +noall +answer +noidnout +onesoa @domwe.sdn.mw. mw. AXFR
 ```
 
-Mexico (mx.)
+Mexico (`mx.`)
 ------------
 
 NIC Mexico makes some statistics available here:
 
 https://www.nicmexico.mx/estadisticas/
 
-Netherlands (nl.)
+Netherlands (`nl.`)
 -----------------
 
 SIDN Labs makes some statistiks available here:
@@ -457,7 +457,7 @@ SIDN Labs makes some statistiks available here:
 https://stats.sidnlabs.nl/nl/
 
 
-Nicaragua (ni.)
+Nicaragua (`ni.`)
 ---------------
 
 The zone for `ni.` appears to be available via `AXFR`
@@ -473,7 +473,7 @@ second-level names (e.g., `com.ni.`, `net.ni.`,
 `AXFR`.
 
 
-Norway (no.)
+Norway (`no.`)
 ------------
 
 norid.no does not make zone data for the `no.` ccTLD
@@ -483,7 +483,7 @@ here:
 https://www.norid.no/en/om-domenenavn/nokkeltall/
 
 
-Niue (nu.)
+Niue (`nu.`)
 ----------
 
 The Swedish Internet Foundation provides access to the
@@ -497,7 +497,7 @@ They also make available some statistics here:
 
 https://internetstiftelsen.se/en/domains/domain-statistics/growth-nu/
 
-New Zealand (nz.)
+New Zealand (`nz.`)
 -----------------
 
 dns.org.nz does not make the `nz.` zone available to
@@ -510,14 +510,14 @@ They also make available some statistics here:
 
 https://docs.internetnz.nz/legacy/reports/
 
-Poland (pl.)
+Poland (`pl.`)
 ------------
 
 `dns.pl` makes some statistics available here:
 
 https://www.dns.pl/en/statistics/number_of_active_names_in_DNS_zone
 
-Palestine (ps.)
+Palestine (`ps.`)
 ---------------
 
 `nic.ps` makes some statistics available here:
@@ -525,7 +525,7 @@ Palestine (ps.)
 https://www.nic.ps/statistics/
 
 
-Portugal (pt.)
+Portugal (`pt.`)
 --------------
 
 pt.pt does not make the `pt.` zone available to
@@ -544,7 +544,7 @@ here:
 
 https://www.pt.pt/pt/estatisticas/
 
-Russia (ru.)
+Russia (`ru.`)
 ------------
 
 `statdom.ru` makes available some statistics here:
@@ -552,14 +552,14 @@ Russia (ru.)
 https://statdom.ru/tld/ru/report/summary/
 
 
-Saudi Arabia (sa.)
+Saudi Arabia (`sa.`)
 ------------------
 
 `nic.sa` makes available some statistics at
 
 https://nic.sa/en/
 
-Singapore (sg.)
+Singapore (`sg.`)
 ---------------
 
 `sgnic.sg` makes available some statistics at
@@ -567,7 +567,7 @@ Singapore (sg.)
 https://www.sgnic.sg/about-us/registration-statistics
 
 
-Svalbard and Jan Mayen (sj.)
+Svalbard and Jan Mayen (`sj.`)
 ----------------------------
 
 The `sj.` ccTLD for Svalbard/Spitsbergen and Jan Mayen
@@ -579,7 +579,7 @@ See also:
 https://www.norid.no/en/omnorid/toppdomenet-sj/
 
 
-Slovakia (sk.)
+Slovakia (`sk.`)
 --------------
 
 SK-NIC does not provide access to the zone file, but
@@ -587,7 +587,7 @@ publishes a list of registered domains at:
 
 https://sk-nic.sk/subory/domains.txt
 
-Sweden (se.)
+Sweden (`se.`)
 ------------
 
 The Swedish Internet Foundation provides access to the
@@ -601,7 +601,7 @@ They also make available some statistics here:
 
 https://internetstiftelsen.se/en/domains/domain-statistics/growth-se/
 
-Sierra Leone (sl.)
+Sierra Leone (`sl.`)
 ------------------
 
 The zone for `sl.` appears to be available via `AXFR`
@@ -615,7 +615,7 @@ Note: this domain offers registration under several
 second-level names (e.g., `com.sl.`, `edu.sl.`, ...);
 some of these domains are also available via `AXFR`.
 
-Soviet Union (su.)
+Soviet Union (`su.`)
 ------------------
 
 (TLD still in use.)
@@ -624,42 +624,42 @@ Soviet Union (su.)
 
 https://statdom.ru/tld/su/report/summary/
 
-Thailand (th.)
+Thailand (`th.`)
 --------------
 
 `thnic.co.th` makes available some statistics here:
 
 https://www.thnic.co.th/stats
 
-Tunisia (tn.)
+Tunisia (`tn.`)
 -------------
 
 `registre.tn` makes some statistics available here:
 
 https://www.registre.tn/fr/index.php?rub=262&srub=329
 
-Turkey (tr.)
+Turkey (`tr.`)
 ------------
 
 TRABIS provides some statistics here:
 
 https://www.trabis.gov.tr/ozet
 
-Taiwan (tw.)
+Taiwan (`tw.`)
 ------------
 
 `twnic.tw` provides some statistics here:
 
 https://www.twnic.tw/item02.php
 
-Ukraine (ua.)
+Ukraine (`ua.`)
 -------------
 
 `hostmaster.ua` makes some statistics available here:
 
 https://www.hostmaster.ua/UAstat/
 
-United Kingdom (uk.)
+United Kingdom (`uk.`)
 --------------------
 
 Nominet makes some statistics available here:
@@ -667,7 +667,7 @@ Nominet makes some statistics available here:
 https://www.nominet.uk/news/reports-statistics/
 
 
-United States (us.)
+United States (`us.`)
 -------------------
 
 Godaddy / Registry Services does not make the `us.`
@@ -675,21 +675,21 @@ zone available to the public, but a request for access
 for research purposes can be made via email to
 iana@about.us.
 
-Uruguay (uy.)
+Uruguay (`uy.`)
 -------------
 
 `nic.uy` makes some statistics available here:
 
 https://www.nic.uy/Registrar/estadist/index.htm
 
-Uzbekistan (uz.)
+Uzbekistan (`uz.`)
 ----------------
 
 `cctld.uz` makes some statistics available here:
 
 https://www.cctld.uz/stat/
 
-South Africa (za.)
+South Africa (`za.`)
 ------------------
 
 `registry.net.za` makes some statistics available here:
@@ -700,8 +700,8 @@ https://registry.net.za/domain_stats.php
 Internationalized country code top-level domains (IDN ccTLDs)
 =============================================================
 
-Bangladesh "Bangla" (xn--54b7fta0cc.)
--------------------------------------
+Bangladesh "Bangla" (`xn--54b7fta0cc.` / `.বাংলা`)
+----------------------------------------------
 
 The zone for `xn--54b7fta0cc.` appears to be available via `AXFR`
 from some of its `NS` records:
@@ -710,8 +710,8 @@ from some of its `NS` records:
 dig +noall +answer +noidnout +onesoa @bayanno.btcl.net.bd. xn--54b7fta0cc. AXFR
 ```
 
-Palestine (xn--ygbi2ammx.)
---------------------------
+Palestine (`xn--ygbi2ammx.` / `.فلسطين`)
+------------------------------------
 
 The zone for `xn--ygbi2ammx.` appears to be available via `AXFR`
 from some of its `NS` records:
@@ -720,29 +720,55 @@ from some of its `NS` records:
 dig +noall +answer +noidnout +onesoa @ns1.gov.ps xn--ygbi2ammx. AXFR
 ```
 
-Russia (xn--p1ai.)
-------------------
+Russia (`xn--p1ai.` / `.рф`)
+------------------------
 
 `statdom.ru` makes available some statistics here:
 
 https://statdom.ru/tld/рф/report/summary/
 
 
-Thailand (xn--o3cw4h.)
-----------------------
+Thailand (`xn--o3cw4h.` / `.ไทย`)
+-----------------------------
 
 `thnic.co.th` makes available some statistics here:
 
 https://www.thnic.co.th/stats
 
 
-Tunisia (xn--pgbs0dh.)
-----------------------
+Tunisia (`xn--pgbs0dh.` / `.تونس`)
+------------------------------
 
 `registre.tn` makes some statistics available here:
 
 https://www.registre.tn/fr/index.php?rub=262&srub=329
 
+
+NSEC Discovery
+==============
+
+The following TLDs use
+[NSEC](https://www.netmeister.org/blog/dns-rrs.html#nsec)
+records and thus can be discovered by walking the zone
+using e.g.,
+[ldns-walk](https://github.com/NLnetLabs/ldns):
+
+* Åland (`ax.`)
+* Bangladesh (`bd.`)
+* Bhutan (`bt.`)
+* Cyprus (`cy.`)
+* Global Domain Name (`gdn.`)
+* Guinea (`gn.`)
+* Lebanon (`lb.`)
+* Sri Lanka (`lk.`)
+* Liberia (`lr.`)
+* Monaco (`mc.`)
+* Puerto Rico (`pr.`)
+* Venezuela (`ve.`)
+* Kazhakstan (`xn--80ao21a.` / `.қаз`)
+* Sri Lanka (`xn--fzc2c9e2c.` / `.ලංකා`)
+* Mongolia (`xn--l1acc.` / `.мон`)
+* Sri Lanka (`xn--xkc2al3hye2a.` / `.இலங்கை`)
 
 
 See also
