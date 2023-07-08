@@ -759,7 +759,7 @@ https://www.registre.tn/fr/index.php?rub=262&srub=329
 NSEC Discovery
 ==============
 
-As of 2023-7-08, The following TLDs use
+As of 2023-07-08, The following TLDs use
 [NSEC](https://www.netmeister.org/blog/dns-rrs.html#nsec)
 records and thus can be discovered by walking the zone
 using e.g.,
@@ -784,6 +784,7 @@ using e.g.,
 * Guinea (`gn.`)
 * `guitars.`
 * `hosting.`
+* Kyrgyzstan (`kg.`)
 * Kazakhstan (`kz.`)
 * Lebanon (`lb.`)
 * Sri Lanka (`lk.`)
