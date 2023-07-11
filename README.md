@@ -67,7 +67,17 @@ International (`int.`)
 Per inquiry to tld-contact@iana.org, the zone for
 `int.` is not available to the public.
 
+Post (`post.)
+-------------
 
+You can apply for Zone File Access on the `upu.int`
+website:
+
+https://www.upu.int/en/Universal-Postal-Union/Activities/Digital-Services/-POST-Domain/Zone-file-access
+
+The form itself is available on ICANN's website:
+
+https://www.icann.org/en/registry-agreements/post/post-agreement-appendix-3--zone-file-access-agreement-11-12-2009-en
 
 Country Code Top-Level Domains (ccTLDs)
 =======================================
@@ -450,6 +460,13 @@ from some of its `NS` records:
 dig +noall +answer +noidnout +onesoa @domwe.sdn.mw. mw. AXFR
 ```
 
+Note: this domain offers registration under several
+second-level names (`ac.mw.`, `co.mw.`, `com.mw.`,
+`coop.mw.`, `edu.mw.`, `gov.mw.`, `int.mw.`,
+`museum.mw.`, `net.mw.`, `org.mw.`); some of these
+domains are also available via `AXFR`.
+
+
 Mexico (`mx.`)
 ------------
 
@@ -476,9 +493,10 @@ dig +noall +answer +noidnout +onesoa @ns.ideay.net.ni. ni. AXFR
 ```
 
 Note: this domain offers registration under several
-second-level names (e.g., `com.ni.`, `net.ni.`,
-...); some of these domains are also available via
-`AXFR`.
+second-level names (`biz.ni.`, `co.ni.`, `com.ni.`,
+`edu.ni.`, `gob.ni.`, `info.ni.`, `int.ni.`,
+`mil.ni.`, `net.ni.`, `nom.ni.`, `org`); some of these
+domains are also available via `AXFR`.
 
 
 Norway (`no.`)
@@ -620,8 +638,9 @@ dig +noall +answer +noidnout +onesoa @ns2.neoip.com sl. AXFR
 ```
 
 Note: this domain offers registration under several
-second-level names (e.g., `com.sl.`, `edu.sl.`, ...);
-some of these domains are also available via `AXFR`.
+second-level names (`com.sl`, `edu.sl`, `gov.sl`,
+`net.sl`, `org.sl`); some of these domains are also
+available via `AXFR`.
 
 This zone can also be walked using NSEC discovery.
 
@@ -684,6 +703,11 @@ Godaddy / Registry Services does not make the `us.`
 zone available to the public, but a request for access
 for research purposes can be made via email to
 iana@about.us.
+
+Once authorized, access can be automated using the
+Files.com API:
+
+https://developers.files.com/#download-file
 
 Uruguay (`uy.`)
 -------------
@@ -786,7 +810,12 @@ using e.g.,
 * `hosting.`
 * Kyrgyzstan (`kg.`)
 * Kazakhstan (`kz.`)
-* Lebanon (`lb.`)
+* Lebanon (`lb.`); strict second-level domain name separation, divided into:
+  - `com.lb.`
+  - `edu.lb.`
+  - `gov.lb.`
+  - `net.lb.`
+  - `org.lb.`
 * Sri Lanka (`lk.`)
 * Liberia (`lr.`)
 * Monaco (`mc.`)
