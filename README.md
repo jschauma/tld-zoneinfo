@@ -67,7 +67,7 @@ International (`int.`)
 Per inquiry to tld-contact@iana.org, the zone for
 `int.` is not available to the public.
 
-Post (`post.)
+Post (`post.`)
 -------------
 
 You can apply for Zone File Access on the `upu.int`
