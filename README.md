@@ -195,8 +195,7 @@ dig +noall +answer +noidnout +onesoa @cv01.dns.pt. cv. AXFR
 Curaçao (`cw.`)
 -------------
 
-An old listing of registered domains dated 2021-11-12
-can be found at:
+`uoc.cw` posts the list of registered domains at
 
 https://www.uoc.cw/domain-registration/cw-registered-domains
 
