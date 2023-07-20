@@ -347,6 +347,13 @@ Hungary (`hu.`)
 
 https://info.domain.hu/stats/hu
 
+Haiti (`ht.`)
+-----------
+
+`nic.ht` provides some statistics here:
+
+https://nic.ht/en/
+
 
 Indonesia (`id.`)
 ---------------
