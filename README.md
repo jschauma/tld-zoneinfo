@@ -418,6 +418,13 @@ JPRS provides some statistics here:
 
 https://jprs.co.jp/en/stat/
 
+Kenya (`ke.`)
+-----------
+
+KENIC provides some statistics here:
+
+https://kenic.or.ke/
+
 
 South Korea (`kr`. and `xn--3e0b707e.` / `.한국`)
 -------------------------------------------
@@ -433,6 +440,13 @@ Switch.ch provides open data access to the `li.` zone
 via TSIG authenticated `AXFR`:
 
 https://www.switch.ch/open-data/#tab-c5442a19-67cf-11e8-9cf6-5254009dc73c-3
+
+Luxembourg (`lu.`)
+----------------
+
+`dns.lu` provides some statistics here:
+
+https://dns.lu/fr
 
 Lithuania (`lt.`)
 ---------------
@@ -455,6 +469,13 @@ Morocco (`ma.`)
 `registre.ma` makes some statistics available here:
 
 https://www.registre.ma/language/en/resources/e-statistiques
+
+North Macedonia (`mk.`)
+---------------------
+
+`marnet.mk` makes some statistics available here:
+
+https://marnet.mk/en/
 
 Malawi (`mw.`)
 ------------
@@ -576,6 +597,13 @@ here:
 
 https://www.pt.pt/pt/estatisticas/
 
+Serbia (`.rs`)
+------------
+
+RNIDS makes some statistics available here:
+
+https://www.rnids.rs/en/
+
 Russia (`ru.`)
 ------------
 
@@ -590,6 +618,20 @@ Saudi Arabia (`sa.`)
 `nic.sa` makes available some statistics at
 
 https://nic.sa/en/
+
+Sweden (`se.`)
+------------
+
+The Swedish Internet Foundation provides access to the
+`se.` zone via `AXFR`:
+
+```
+dig +noall +answer +noidnout +onesoa @zonedata.iis.se se. AXFR
+```
+
+They also make available some statistics here:
+
+https://internetstiftelsen.se/en/domains/domain-statistics/growth-se/
 
 Singapore (`sg.`)
 ---------------
@@ -610,6 +652,13 @@ the required apex resource records.
 See also:
 https://www.norid.no/en/omnorid/toppdomenet-sj/
 
+Slovenia (`si.`)
+--------------
+
+`register.si` makes some statistics available here:
+
+https://www.register.si/
+
 
 Slovakia (`sk.`)
 --------------
@@ -618,20 +667,6 @@ SK-NIC does not provide access to the zone file, but
 publishes a list of registered domains at:
 
 https://sk-nic.sk/subory/domains.txt
-
-Sweden (`se.`)
-------------
-
-The Swedish Internet Foundation provides access to the
-`se.` zone via `AXFR`:
-
-```
-dig +noall +answer +noidnout +onesoa @zonedata.iis.se se. AXFR
-```
-
-They also make available some statistics here:
-
-https://internetstiftelsen.se/en/domains/domain-statistics/growth-se/
 
 Sierra Leone (`sl.`)
 ------------------
@@ -658,6 +693,13 @@ Soviet Union (`su.`)
 `statdom.ru` makes available some statistics here:
 
 https://statdom.ru/tld/su/report/summary/
+
+El Salvador (`sv.`)
+-----------------
+
+SVNet makes available some statistics here:
+
+https://svnet.sv/
 
 Thailand (`th.`)
 --------------
@@ -686,6 +728,14 @@ Taiwan (`tw.`)
 `twnic.tw` provides some statistics here:
 
 https://www.twnic.tw/item02.php
+
+Tanzania (`tz.`)
+--------------
+
+`karibu.tz` provides some statistics here:
+
+https://karibu.tz/
+
 
 Ukraine (`ua.`)
 -------------
@@ -729,6 +779,13 @@ Uzbekistan (`uz.`)
 
 https://www.cctld.uz/stat/
 
+Vietname (`vn.`)
+--------------
+
+`tenmien.vn` makes some statistics available here:
+
+https://tenmien.vn/
+
 South Africa (`za.`)
 ------------------
 
@@ -751,6 +808,15 @@ dig +noall +answer +noidnout +onesoa @bayanno.btcl.net.bd. xn--54b7fta0cc. AXFR
 ```
 
 This zone can also be walked using NSEC discovery.
+
+
+Serbia (`xn--90a3ac.` / `срб.`)
+---------------------------
+
+RNIDS makes some statistics available here:
+
+https://www.rnids.rs/en/
+
 
 Palestine (`xn--ygbi2ammx.` / `.فلسطين`)
 ------------------------------------
