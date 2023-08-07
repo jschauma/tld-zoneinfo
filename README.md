@@ -789,7 +789,14 @@ https://tenmien.vn/
 South Africa (`za.`)
 ------------------
 
-`registry.net.za` makes some statistics available here:
+.ZADNA (`.za` Domain Name Authority) includes a total
+domain count for the TLD on its website:
+
+https://www.zadna.org.za/
+
+In addition, the ZA Central Registry (ZACR), the
+administrator of some of the zones under `za.` makes
+some statistics available here:
 
 https://registry.net.za/domain_stats.php
 
