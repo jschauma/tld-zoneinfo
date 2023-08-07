@@ -182,6 +182,15 @@ via TSIG authenticated `AXFR`:
 
 https://www.switch.ch/open-data/#tab-c5442a19-67cf-11e8-9cf6-5254009dc73c-3
 
+China (`cn.`)
+-----------
+
+CNNIC provides some statistics in its periodic reports
+available at
+
+https://www.cnnic.com.cn/IDR/
+
+
 Cape Verde (`cv.`)
 ----------------
 
@@ -815,6 +824,14 @@ dig +noall +answer +noidnout +onesoa @bayanno.btcl.net.bd. xn--54b7fta0cc. AXFR
 ```
 
 This zone can also be walked using NSEC discovery.
+
+China (`xn--fiqs8s.` / `.中国`)
+---------------------------
+
+CNNIC provides some statistics in its periodic reports
+available at
+
+https://www.cnnic.com.cn/IDR/
 
 
 Serbia (`xn--90a3ac.` / `срб.`)
