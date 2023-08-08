@@ -252,9 +252,9 @@ dig +noall +answer +noidnout +onesoa @zaranew.noc.net.er. er. AXFR
 
 Note: this domain offers registration under several
 second-level names (e.g., `com.er.`, `edu.er.`,
-...); some of these domains are also available via
-`AXFR`.
-
+`gov.er.`, `mil.er.`, `net.er.`, `org.er.`,
+`ind.er.`); some of these domains are also available
+via `AXFR`.
 
 Estonia (`ee.`)
 -------------
@@ -531,7 +531,7 @@ dig +noall +answer +noidnout +onesoa @ns.ideay.net.ni. ni. AXFR
 Note: this domain offers registration under several
 second-level names (`biz.ni.`, `co.ni.`, `com.ni.`,
 `edu.ni.`, `gob.ni.`, `info.ni.`, `int.ni.`,
-`mil.ni.`, `net.ni.`, `nom.ni.`, `org`); some of these
+`mil.ni.`, `net.ni.`, `nom.ni.`, `org.ni.`); some of these
 domains are also available via `AXFR`.
 
 
