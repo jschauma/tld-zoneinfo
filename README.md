@@ -486,6 +486,16 @@ North Macedonia (`mk.`)
 
 https://marnet.mk/en/
 
+Northern Mariana Islands (`mp.`)
+------------------------------
+
+The zone for `mp.` appears to be available via `AXFR`
+from some of its `NS` records:
+
+```
+dig +noall +answer @ns1.nic.mp. mp. AXFR
+```
+
 Malawi (`mw.`)
 ------------
 
