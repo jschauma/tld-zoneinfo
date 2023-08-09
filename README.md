@@ -8,7 +8,7 @@ The Root Zone (`.`)
 https://www.iana.org/domains/root/files
 
 ```
-dig +noall +answer +noidnout +onesoa @f.root-servers.net . AXFR
+dig +noall +answer @f.root-servers.net . AXFR
 ```
 
 Infrastructure domain (`arpa.`)
@@ -17,7 +17,7 @@ Infrastructure domain (`arpa.`)
 Available via AXFR:
 
 ```
-dig +noall +answer +noidnout +onesoa @$(dig +short ns arpa. | head -1) arpa AXFR
+dig +noall +answer @$(dig +short ns arpa. | head -1) arpa AXFR
 ```
 
 This zone can also be walked using NSEC discovery.
@@ -170,7 +170,7 @@ The zone for `cd.` appears to be available via `AXFR`
 from some of the `NS` records listed in the root zone:
 
 ```
-dig +noall +answer +noidnout +onesoa @ns-root-22.scpt-network.net. cd. AXFR
+dig +noall +answer @ns-root-22.scpt-network.net. cd. AXFR
 ```
 
 
@@ -198,7 +198,7 @@ The zone for `cv.` appears to be available via `AXFR`
 from some of the `NS` records listed in the root zone:
 
 ```
-dig +noall +answer +noidnout +onesoa @cv01.dns.pt. cv. AXFR
+dig +noall +answer @cv01.dns.pt. cv. AXFR
 ```
 
 Curaçao (`cw.`)
@@ -247,7 +247,7 @@ The zone for `er.` appears to be available via `AXFR`
 from some of its `NS` records:
 
 ```
-dig +noall +answer +noidnout +onesoa @zaranew.noc.net.er. er. AXFR
+dig +noall +answer @zaranew.noc.net.er. er. AXFR
 ```
 
 Note: this domain offers registration under several
@@ -263,7 +263,7 @@ Per https://www.internet.ee/domains/ee-zone-file, the
 `ee.` zone file is available via `AXFR`:
 
 ```
-dig +noall +answer +noidnout +onesoa @zone.internet.ee ee. AXFR
+dig +noall +answer @zone.internet.ee ee. AXFR
 ```
 
 This zone can also be walked using NSEC discovery.
@@ -282,7 +282,7 @@ The zone for `fj.` appears to be available via `AXFR`
 from some of its `NS` records:
 
 ```
-dig +noall +answer +noidnout +onesoa @ns1.fj fj. AXFR
+dig +noall +answer @ns1.fj fj. AXFR
 
 ```
 
@@ -329,7 +329,7 @@ The zone for `gq.` appears to be available via `AXFR`
 from some of its `NS` records:
 
 ```
-dig +noall +answer +noidnout +onesoa @ns2.nic.gp gp. AXFR
+dig +noall +answer @ns2.nic.gp gp. AXFR
 ```
 
 
@@ -503,7 +503,7 @@ The zone for `mw.` appears to be available via `AXFR`
 from some of its `NS` records:
 
 ```
-dig +noall +answer +noidnout +onesoa @domwe.sdn.mw. mw. AXFR
+dig +noall +answer @domwe.sdn.mw. mw. AXFR
 ```
 
 Note: this domain offers registration under several
@@ -535,7 +535,7 @@ The zone for `ni.` appears to be available via `AXFR`
 from some of its `NS` records:
 
 ```
-dig +noall +answer +noidnout +onesoa @ns.ideay.net.ni. ni. AXFR
+dig +noall +answer @ns.ideay.net.ni. ni. AXFR
 ```
 
 Note: this domain offers registration under several
@@ -562,7 +562,7 @@ The Swedish Internet Foundation provides access to the
 `nu.` zone via `AXFR`:
 
 ```
-dig +noall +answer +noidnout +onesoa @zonedata.iis.se nu. AXFR
+dig +noall +answer @zonedata.iis.se nu. AXFR
 ```
 
 They also make available some statistics here:
@@ -645,7 +645,7 @@ The Swedish Internet Foundation provides access to the
 `se.` zone via `AXFR`:
 
 ```
-dig +noall +answer +noidnout +onesoa @zonedata.iis.se se. AXFR
+dig +noall +answer @zonedata.iis.se se. AXFR
 ```
 
 They also make available some statistics here:
@@ -694,7 +694,7 @@ The zone for `sl.` appears to be available via `AXFR`
 from some of its `NS` records:
 
 ```
-dig +noall +answer +noidnout +onesoa @ns2.neoip.com sl. AXFR
+dig +noall +answer @ns2.neoip.com sl. AXFR
 ```
 
 Note: this domain offers registration under several
@@ -830,7 +830,7 @@ The zone for `xn--54b7fta0cc.` appears to be available via `AXFR`
 from some of its `NS` records:
 
 ```
-dig +noall +answer +noidnout +onesoa @bayanno.btcl.net.bd. xn--54b7fta0cc. AXFR
+dig +noall +answer @bayanno.btcl.net.bd. xn--54b7fta0cc. AXFR
 ```
 
 This zone can also be walked using NSEC discovery.
@@ -859,7 +859,7 @@ The zone for `xn--ygbi2ammx.` appears to be available via `AXFR`
 from some of its `NS` records:
 
 ```
-dig +noall +answer +noidnout +onesoa @ns1.gov.ps xn--ygbi2ammx. AXFR
+dig +noall +answer @ns1.gov.ps xn--ygbi2ammx. AXFR
 ```
 
 Russia (`xn--p1ai.` / `.рф`)
