@@ -441,6 +441,13 @@ KENIC provides some statistics here:
 
 https://kenic.or.ke/
 
+Mexico (`mx.`)
+------------
+
+`dominios.mx` provides some statistics here:
+
+https://www.dominios.mx/instant-statistics-2/
+
 
 South Korea (`kr`. and `xn--3e0b707e.` / `.한국`)
 -------------------------------------------
