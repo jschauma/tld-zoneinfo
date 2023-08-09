@@ -441,6 +441,13 @@ KENIC provides some statistics here:
 
 https://kenic.or.ke/
 
+Malaysia (`my.`)
+--------------
+
+MYNIC provides some statistics here:
+
+https://mynic.my/media/statistics/
+
 Mexico (`mx.`)
 ------------
 
