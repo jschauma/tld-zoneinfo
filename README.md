@@ -162,6 +162,13 @@ records.
 See also:
 https://www.norid.no/en/omnorid/toppdomenet-bv/
 
+Canada (`ca.`)
+------------
+
+CIRA provides a count of registered domain names here:
+
+https://www.cira.ca/en/
+
 
 Democratic Republic of the Congo (`cd.`)
 --------------------------------------
