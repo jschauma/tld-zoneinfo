@@ -603,6 +603,14 @@ They also make available some statistics here:
 
 https://docs.internetnz.nz/legacy/reports/
 
+Peru (`pe.`)
+------------
+
+`punto.pe` includes a count of active domains on its
+website:
+
+https://punto.pe/
+
 Poland (`pl.`)
 ------------
 
