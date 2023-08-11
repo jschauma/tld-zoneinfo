@@ -971,3 +971,4 @@ by Jan-Piet Mens at: https://jpmens.net/2021/05/18/dns-open-zone-data/
 
 Additional links:
 * https://www.netmeister.org/blog/tlds.html
+* https://www.netmeister.org/tldstats/
