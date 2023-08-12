@@ -425,7 +425,7 @@ Jordan (`jo`. and `xn--mgbayh7gpa.` / `.الاردن`)
 
 `dns.jo` provides some statistics here:
 
-https://www.dns.jo/stat.aspx
+https://dns.jo/DomStat.aspxx
 
 Japan (`jp.`)
 -----------
