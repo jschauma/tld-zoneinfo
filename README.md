@@ -2,6 +2,11 @@ This directory contains information about how to
 access DNS zone data for the different top-level
 domains (TLDs).
 
+As far as applicable, all information here is [CC0
+1.0](https://creativecommons.org/publicdomain/zero/1.0/),
+and provided AS IS without any claim of correctness
+yada yada yada.
+
 The Root Zone (`.`)
 =================
 
