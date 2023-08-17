@@ -8,6 +8,8 @@
 #
 # This script fetches the list of registered domain
 # names under the fi. ccTLD via their OData interface.
+#
+# This script is in the public domain.
 
 set -eu
 
