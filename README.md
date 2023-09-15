@@ -63,6 +63,10 @@ addresses), and [yet
 others](https://mstdn.social/@jschauma/110306237694079456)
 ask to see your ID.
 
+Lastly, ICANN publishes monthly registry reports for
+the TLDs under its purview with a three month delay at
+https://www.icann.org/resources/pages/registry-reports/.
+
 Sponsored Top-Level Domains (sTLDs)
 ===================================
 
