@@ -143,6 +143,14 @@ here:
 
 https://www.dnsbelgium.be/en/statistics
 
+Burkina Faso (`bf.`)
+--------------------
+
+`registre.bf` does not make the zone file or data
+available to the public, but provides some statistics
+here:
+
+https://www.registre.bf/index.php/statistiques/
 
 Brazil (`br.`)
 ------------
