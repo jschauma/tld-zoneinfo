@@ -365,12 +365,12 @@ Guatemala (`gt.`)
 https://www.gt/estadisticas/
 
 
-Hong Kong (`hk.`)
----------------
+Hong Kong (`hk.` and `xn--j6w193g`)
+-----------------------------------
 
 `hkirc.hk` provides some statistics here:
 
-https://www.hkirc.hk/zh-hant/news/statistics/
+https://www.hkirc.hk/en/our-services-support/statistics/registration-statistics/
 
 
 Hungary (`hu.`)
