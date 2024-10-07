@@ -657,7 +657,7 @@ associated organizations, and ultimately request a
 government ID to be submitted together with the zone
 file sharing agreement.
 
-In addition, `pt.pt` makes sme statistics available
+In addition, `pt.pt` makes some statistics available
 here:
 
 https://www.pt.pt/pt/estatisticas/
