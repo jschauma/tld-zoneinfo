@@ -889,6 +889,16 @@ available at
 
 https://www.cnnic.com.cn/IDR/
 
+Egypt (`xn--wgbh1c.` / `.مصر`)
+---------------------------
+
+The zone for `xn--wgbh1c.` appears to be available via `AXFR`
+from some of its `NS` records:
+
+```
+dig +noall +answer @ns1.dotmasr.eg. xn--wgbh1c. AXFR
+```
+
 
 Serbia (`xn--90a3ac.` / `срб.`)
 ---------------------------
