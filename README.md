@@ -40,6 +40,15 @@ domain_."
 
 Inquiries should be sent to edu@educause.edu.
 
+`gov.`
+------
+
+The `ġov.` zone file is available via
+[CZDS](https://czds.icann.org/), but is (as of
+2025-02-07) also provided by CISA here:
+
+https://github.com/cisagov/dotgov-data
+
 `mil.`
 ----
 
@@ -471,6 +480,13 @@ Mexico (`mx.`)
 `dominios.mx` provides some statistics here:
 
 https://www.dominios.mx/instant-statistics-2/
+
+New Caledonia (`nc.`)
+---------------------
+
+`domaine.nc` provides a list of registered names here:
+
+https://www.domaine.nc/whos?who=A*
 
 
 South Korea (`kr`. and `xn--3e0b707e.` / `.한국`)
