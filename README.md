@@ -43,7 +43,7 @@ Inquiries should be sent to edu@educause.edu.
 `gov.`
 ------
 
-The `ġov.` zone file is available via
+The `gov.` zone file is available via
 [CZDS](https://czds.icann.org/), but is (as of
 2025-02-07) also provided by CISA here:
 
