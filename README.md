@@ -486,7 +486,7 @@ New Caledonia (`nc.`)
 
 `domaine.nc` provides a list of registered names here:
 
-https://www.domaine.nc/whos?who=A*
+[https://www.domaine.nc/whos?who=A*](https://www.domaine.nc/whos?who=A*)
 
 
 South Korea (`kr`. and `xn--3e0b707e.` / `.한국`)
