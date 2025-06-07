@@ -830,7 +830,7 @@ United Kingdom (`uk.`)
 
 Nominet makes some statistics available here:
 
-https://www.nominet.uk/news/reports-statistics/
+https://nominet.uk/reports-and-statistics/
 
 
 United States (`us.`)
