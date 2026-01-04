@@ -106,6 +106,16 @@ contacted, most ccTLD operators deny the request.
 
 The following are exceptions / additional notes:
 
+Australia (`au.`)
+-----------------
+
+auDA provides a count of domains here:
+
+https://www.auda.org.au/
+
+(As of 2026-01-04, this pulles the actual count from
+https://domaincount.auda.org.au/.)
+
 Armenia (`am.`)
 -------------
 
@@ -419,7 +429,7 @@ Israel (`il`. and `xn--4dbrk0ce.` / `.ישראל`)
 
 `isoc.org.il` provides some statistics here:
 
-https://en.isoc.org.il/il-cctld/number-of-registered-domain-names-2023
+https://en.isoc.org.il/domain-names-registry-statistics
 
 
 Iran (`ir.`)
@@ -606,7 +616,7 @@ norid.no does not make zone data for the `no.` ccTLD
 available to the public, but provides some statistics
 here:
 
-https://www.norid.no/en/om-domenenavn/nokkeltall/
+https://www.norid.no/en/om-domenenavn/statistics/key-figures/
 
 
 Niue (`nu.`)
