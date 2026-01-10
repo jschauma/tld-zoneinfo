@@ -153,6 +153,13 @@ to the public, but provides some statistics here:
 
 https://nic.ba/Statistics/Statistics
 
+Belarus (`by.` and `xn--90ais`)
+------------------------------
+
+`whois.cctld.by` publishes some stats here:
+
+https://whois.cctld.by/#/statistics
+
 Belgium (`be.`)
 -------------
 
