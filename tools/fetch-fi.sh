@@ -14,22 +14,21 @@
 set -eu
 
 tdir=$(mktemp -d)
-URL="https://odata.domain.fi/OpenDomainData.svc/"
+URL="https://odata.domain.fi/odata/Domains/"
 
-link='Domains?$inlinecount=allpages'
 total=0
 n=0
 
+count=$(curl -s "${URL}\$count")
 while true; do
-	curl -s -H 'Accept: application/json' "${URL}/${link}" > ${tdir}/json
-	count=$(jq -r '."odata.count"' < ${tdir}/json)
-	link=$(jq -r '."odata.nextLink"' < ${tdir}/json)
+	curl -s "${URL}" > ${tdir}/json
+	URL=$(jq -r '.["@odata.nextLink"]' < ${tdir}/json)
 	jq -r '.value[].Name' <${tdir}/json | sed -e 's/$/.fi/' >> ${tdir}/names
 	rm ${tdir}/json
 	n=$(( n + 1 ))
 	# Looks like getting 100 names / request is the max.
 	total=$(( n * 100 ))
-	echo "=> ${total} / ${count} (" $(echo "(${total} / ${count}) * 100 " | bc -l) " %)"
+	echo "=> ${total} / ${count} (" $(echo "scale=2; (${total} / ${count}) * 100 " | bc -l) " %)"
 	if [ ${total} -gt ${count} ]; then
 		break
 	fi

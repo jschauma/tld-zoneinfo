@@ -347,8 +347,7 @@ names](https://tieto.traficom.fi/en/datatraficom/open-data?toggle=Fi-domain%20na
 
 Sample request:
 ```
-curl -s -H 'Accept: application/json' \
-        'https://odata.domain.fi/OpenDomainData.svc/Domains?$inlinecount=allpages'
+curl -s 'https://odata.domain.fi/odata/Domains/'
 ```
 
 The entire list of registered domains can be fetched
